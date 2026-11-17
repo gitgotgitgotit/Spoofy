@@ -1,5 +1,7 @@
-# Exclude the entire files directory
+# Exclude the entire files directory by default...
 exclude files/*
+# ...except data files the tool actually loads at runtime.
+include files/dkim_selectors.txt
 
 # Include essential files like README and LICENSE
 include LICENSE
