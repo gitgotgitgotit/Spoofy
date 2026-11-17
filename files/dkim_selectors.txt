@@ -1,0 +1,67 @@
+# DKIM selector wordlist used by --dkim brute-force enumeration.
+# One selector per line. Lines starting with # are comments and blank lines are ignored.
+# Feel free to extend this list - it does not need a code change, just add a line.
+# Edit this file, or point --dkim-wordlist at your own, to customize what's tried.
+
+# Google Workspace / Microsoft 365
+google
+googlemail
+selector1
+selector2
+
+# Mailchimp / general purpose
+k1
+k2
+k3
+dkim
+dkim1
+dkim2
+default
+default2
+mail
+email
+smtp
+smtpapi
+s1
+s2
+s1024
+s2048
+
+# ESPs / MTAs
+mandrill
+mailjet
+mailo
+mailgun
+mg
+amazonses
+sesdkim
+sig1
+zoho
+zmail
+everlytickey1
+everlytickey2
+hs1
+hs2
+hs1-1
+pm
+pm-bounces
+scph0120
+scph0121
+scph0122
+fm1
+fm2
+fm3
+cm
+litesrv
+dc
+spop
+srs
+m1
+mta
+key1
+key2
+mxvault
+protonmail
+protonmail2
+protonmail3
+sendgrid
